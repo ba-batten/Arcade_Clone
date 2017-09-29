@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frogger Clone</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="col-md-12">
+        <h1>Frogger Clone</h1>
+      </header>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <article class="col-lg-3 hidden-xs hidden-sm hidden-md text-right">
+        <p>Use arrow keys to move around the board</p>
+        <p>Collect as many Gems as possible, but watch out for bugs.</p>
+        <p>Get 15 Gems to earn an extra life.</p>
+        <p>Slow the bugs briefly by finding a Star.</p>
+        <p>Watch out for the growing army of bugs as you collect more Gems.</p>
+      </article>
+      <div class="col-lg-6">
+        <div id="canvas-container">
+          <script src="js/resources.js"></script>
+          <script src="js/app.js"></script>
+          <script src="js/engine.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

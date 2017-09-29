@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background: url("../images/background.png");
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    color: rgb(9, 37, 81);
+    margin: 0;
+    padding: 0;
+    /*-webkit-text-fill-color: #c9df3f;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(9, 37, 81);*/
+}
+
+header {
+  color: #5fc148;
+  background: rgb(9, 37, 81);
+  height: 50px;
+  border-bottom: 3px solid #5fc148;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
