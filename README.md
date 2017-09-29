@@ -4,7 +4,8 @@ Game is based on the classic game Frogger.  Player traverses the stone road coll
 
 ## How to Play
 
-* Clone or download this repository
+* Click [here](https://github.com/ba-batten/Arcade_Clone) to see a live version, or
+* Clone or download this repository and
 * Open index.html in your favorite browser to play
 
 ## Controls
